@@ -1,17 +1,16 @@
-# Tologo Garage Opener Integration for Home Assistant
+# Tologo Door Opener Integration for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 [![GitHub release](https://img.shields.io/github/v/release/JTorkk/tologo-hass.svg)](https://github.com/JTorkk/tologo-hass/releases)
-[![License](https://img.shields.io/github/license/JTorkk/tologo-hass.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-A custom integration for Home Assistant to control [Tologo](https://www.tologo.fi/) garage door openers via their cloud API.
+A custom integration for Home Assistant to control [Tologo](https://www.tologo.fi/) door openers via their cloud API.
 
 ## Features
 
-* **Button Control:** Provides a simple push-button entity to trigger your Tologo garage door. 
-* **Automatic Discovery:** All associated Tologo doors (and their location metadata) are automatically discovered and added to Home Assistant during the initial setup.
-* **Instant UI Feedback:** Button presses complete instantly in the Home Assistant interface, while the actual API call is safely dispatched in the background.
-* **Anti-Spam Protection:** Includes a built-in 5-second cooldown per door to prevent accidental rapid-fire presses and API rate limiting.
+* **Button Control:** Provides a simple push-button entity to trigger the door opening.
+* **Automatic Discovery:** All associated Tologo doors are automatically discovered and added to Home Assistant during the initial setup.
+* **Anti-Spam Protection:** Includes a built-in cooldown per door to prevent accidental rapid-fire presses and API rate limiting.
 * **Error Notifications:** If a door fails to open, a persistent notification will automatically alert you directly in the Home Assistant dashboard.
 * **UI Configuration:** Easy setup directly from the Home Assistant integrations dashboard (no YAML required).
 
@@ -24,7 +23,7 @@ This is the easiest way to install and keep the integration updated.
 2. Click on **Integrations**.
 3. Click the three dots in the top right corner and select **Custom repositories**.
 4. Add the URL to this GitHub repository and select **Integration** as the category.
-5. Click **Add**, then search for "Tologo Garage Opener" in HACS and click **Download**.
+5. Click **Add**, then search for "Tologo Door Opener" in HACS and click **Download**.
 6. Restart Home Assistant.
 
 ### Option 2: Manual Installation
@@ -64,4 +63,4 @@ If you find a bug or have a feature request, please open an issue.
 
 ## Legal Disclaimer
 This is an unofficial, community-developed integration. This project is not affiliated with, endorsed by, or officially connected to Tolotech Oy or the Tologo brand in any way. All product names, logos, brands, trademarks, and registered trademarks (including but not limited to Tologo) are the property of Tolotech Oy. Their use in this project is strictly for identification purposes only to indicate compatibility with Home Assistant.
-This software is provided "as is", without warranty of any kind, express or implied. The developer of this integration assumes no responsibility for any damage to your property, network, or garage door mechanism resulting from the use of this custom integration. Use at your own risk.
+This software is provided "as is", without warranty of any kind, express or implied. The developer of this integration assumes no responsibility for any damage to your property, network, or door mechanism resulting from the use of this custom integration. Use at your own risk.
