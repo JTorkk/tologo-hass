@@ -3,6 +3,7 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 [![GitHub release](https://img.shields.io/github/v/release/JTorkk/tologo-hass.svg)](https://github.com/JTorkk/tologo-hass/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![IoT Class: Cloud Push](https://img.shields.io/badge/IoT_Class-Cloud_Push-brightgreen.svg)](https://www.home-assistant.io/blog/2016/02/12/classifying-the-internet-of-things/#classifiers)
 
 A custom integration for Home Assistant to control [Tologo](https://www.tologo.fi/) door openers via their cloud API.
 
