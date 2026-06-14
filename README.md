@@ -1,8 +1,8 @@
 # Tologo Garage Opener Integration for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
-[![GitHub release](https://img.shields.io/github/v/release/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.svg)](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/releases)
-[![License](https://img.shields.io/github/license/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/JTorkk/tologo-hass.svg)](https://github.com/JTorkk/tologo-hass/releases)
+[![License](https://img.shields.io/github/license/JTorkk/tologo-hass.svg)](LICENSE)
 
 A custom integration for Home Assistant to control [Tologo](https://www.tologo.fi/) garage door openers via their cloud API.
 
@@ -28,7 +28,7 @@ This is the easiest way to install and keep the integration updated.
 6. Restart Home Assistant.
 
 ### Option 2: Manual Installation
-1. Download the latest release from the [Releases page](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/releases).
+1. Download the latest release from the [Releases page](https://github.com/JTorkk/tologo-hass/releases).
 2. Extract the zip file and copy the `custom_components/tologo` folder into your Home Assistant `custom_components` directory.
 3. Restart Home Assistant.
 
