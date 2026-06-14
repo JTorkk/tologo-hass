@@ -1,0 +1,9 @@
+{
+  "domain": "tologo",
+  "name": "Tologo",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "iot_class": "cloud_push",
+  "version": "1.0.0"
+}
