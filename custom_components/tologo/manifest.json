@@ -5,7 +5,7 @@
   "config_flow": true,
   "dependencies": [],
   "iot_class": "cloud_push",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "documentation": "https://github.com/JTorkk/tologo-hass",
   "issue_tracker": "https://github.com/JTorkk/tologo-hass/issues"
 }
